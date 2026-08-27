@@ -1,0 +1,3 @@
+- insert:
+    - id: gpt-tool-schema-compatibility
+      name: dsh-gpt-tool-schema-compatibility
