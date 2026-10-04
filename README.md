@@ -1,5 +1,7 @@
 # dsh-gpt-tool-schema-compatibility
 
+This release requires DSH 0.2.1-alpha.1 or a compatible 0.2 release. See [compatibility details](docs/dsh-0.2-compatibility.md).
+
 修复 GPT/Codex 在 Full access 下的工具参数冲突。
 
 ## 安装
