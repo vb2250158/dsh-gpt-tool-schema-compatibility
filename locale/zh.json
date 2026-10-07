@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GPT 工具兼容",
+    "description": "调整工具参数声明，兼容 GPT 模型的工具调用。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GPT tool compatibility",
+    "description": "Adapt tool parameter schemas for GPT tool calling."
+  }
+}
