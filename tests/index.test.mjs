@@ -38,6 +38,11 @@ test('adapts GPT schemas only while the session already has Full access', () => 
   assert.equal(adaptAssembly(assembly, 'GPT-5.6-Terra High', { mode: 'workspace-write' }), assembly)
 })
 
+test('preserves rc.3 prompt presentation without executor-owned tool schemas', () => {
+  const presentation = { sections: [], contexts: [], variables: {} }
+  assert.equal(adaptAssembly(presentation, 'gpt-6.1-sol', { mode: 'danger-full-access' }), presentation)
+})
+
 test('adapts the public prompt assembly waterfall using the agent session policy', async () => {
   const listeners = []
   const session = { id: 'session-1' }
